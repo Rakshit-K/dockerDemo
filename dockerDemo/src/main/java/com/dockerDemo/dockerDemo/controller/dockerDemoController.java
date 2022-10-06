@@ -11,7 +11,7 @@ public class dockerDemoController {
 
 	@GetMapping("/demo")
 	public ResponseEntity<String> demoDock(){		
-		return ResponseEntity.ok("Hiii.... this api is working cicd demo");
+		return ResponseEntity.ok("Hiii.... this api is working deployed via CICD");
 		
 	}
 }
