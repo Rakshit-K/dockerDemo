@@ -11,7 +11,7 @@ public class dockerDemoController {
 
 	@GetMapping("/demo")
 	public ResponseEntity<String> demoDock(){		
-		return ResponseEntity.ok("deploying through jenkins webhook ");
+		return ResponseEntity.ok("deploying through jenkins webhook1 ");
 		
 	}
 }
