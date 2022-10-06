@@ -11,7 +11,7 @@ public class dockerDemoController {
 
 	@GetMapping("/demo")
 	public ResponseEntity<String> demoDock(){		
-		return ResponseEntity.ok("Hiii.... this api is working");
+		return ResponseEntity.ok("Hiii.... this api is working cicd demo");
 		
 	}
 }
